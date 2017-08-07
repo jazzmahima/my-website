@@ -179,7 +179,7 @@ color:white;
 line-height:2em;
 }
 
-   .awesome {
+.awesome{
       
       font-family: Algerian;
       font-style: italic;
@@ -193,12 +193,10 @@ line-height:2em;
       font-size:45px;
       font-weight: bold;
       position: center;
-      -webkit-animation:colorchange 10s infinite alternate;
-      
-      
+      -webkit-animation:colorchange;
+       animation:colorchange 20s infinite alternate;
     }
-
-    @-webkit-keyframes colorchange {
+@-webkit-keyframes colorchange {
       0% {
         
         color:#FF0000;
@@ -253,6 +251,62 @@ line-height:2em;
         color: pink;
       }
     }
+@keyframes colorchange {
+      0% {
+        
+        color:#FF0000;
+      }
+      
+      10% {
+        
+        color:#FF0000;
+      }
+      
+      20% {
+        
+        color:#FFFF00;
+      }
+      
+      30% {
+        
+        color:#FF0000;
+      }
+      
+      40% {
+        
+        color:#008000;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color:#0000FF;
+      }
+      
+      70% {
+        
+        color:#800080 ;
+      }
+      80% {
+     
+        color:#8B008B;
+      }
+      
+      90% {
+     
+        color:#FF4500 ;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+
 .objclr{
 	color:white;
 	font-family:jazz LET,fantasy;
